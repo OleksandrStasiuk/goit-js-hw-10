@@ -51,6 +51,7 @@ function markupCurrentBreed(data) {
 
   catInfoRef.innerHTML = markup(data[0]);
   loaderRef.classList.add('hidden');
+  errorRef.classList.add('hidden');
   catInfoRef.classList.remove('hidden');
 }
 
